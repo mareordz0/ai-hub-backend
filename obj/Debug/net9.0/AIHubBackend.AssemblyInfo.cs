@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AIHubBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4868f65de9b9f0c68de2066a5e272777d692105")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b18b3f53c4d24ec70a8f70188646594a1d5b0754")]
 [assembly: System.Reflection.AssemblyProductAttribute("AIHubBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AIHubBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

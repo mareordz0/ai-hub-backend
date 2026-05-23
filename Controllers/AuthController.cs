@@ -67,7 +67,9 @@ public class AuthController : ControllerBase
             return Unauthorized("Credenciales incorrectas.");
 
         var token = await GenerateJwtToken(user);
-        return Ok(new { token });
+        var roles = await _userManager.GetRolesAsync(user);
+        var role = roles.FirstOrDefault() ?? "User";
+        return Ok(new { token, role });
     }
 
     private async Task<string> GenerateJwtToken(User user)
