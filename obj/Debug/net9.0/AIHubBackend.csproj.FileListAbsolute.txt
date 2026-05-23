@@ -10,6 +10,7 @@ C:\Users\User\Desktop\Pagina Web Ai\Backend Ai\ai-hub-backend\bin\Debug\net9.0\A
 C:\Users\User\Desktop\Pagina Web Ai\Backend Ai\ai-hub-backend\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\User\Desktop\Pagina Web Ai\Backend Ai\ai-hub-backend\bin\Debug\net9.0\Azure.Identity.dll
 C:\Users\User\Desktop\Pagina Web Ai\Backend Ai\ai-hub-backend\bin\Debug\net9.0\Humanizer.dll
+C:\Users\User\Desktop\Pagina Web Ai\Backend Ai\ai-hub-backend\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\User\Desktop\Pagina Web Ai\Backend Ai\ai-hub-backend\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\User\Desktop\Pagina Web Ai\Backend Ai\ai-hub-backend\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\User\Desktop\Pagina Web Ai\Backend Ai\ai-hub-backend\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
