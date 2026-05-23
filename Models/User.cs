@@ -1,15 +1,13 @@
+using Microsoft.AspNetCore.Identity;
+
 // Almacena usuarios (admin/user)
 namespace AIHubBackend.Models;
 
-public class User
+public class User : IdentityUser
 {
-    public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
-    public string Email { get; set; } = string.Empty;
-    public string PasswordHash { get; set; } = string.Empty;
-    public string Role { get; set; } = Roles.User; // usa la constante
 
-    // Constantes de roles disponibles
+    // Constantes de roles disponibles ára usar en todo el proyecto
     public static class Roles
     {
         public const string Admin = "admin";
