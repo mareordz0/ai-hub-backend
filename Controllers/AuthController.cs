@@ -68,7 +68,11 @@ public class AuthController : ControllerBase
 
         var token = await GenerateJwtToken(user);
         var roles = await _userManager.GetRolesAsync(user);
-        var role = roles.FirstOrDefault() ?? "User";
+        var role = roles.FirstOrDefault() ?? "user";
+
+        // Debug temporal para verificar roles en login
+        Console.WriteLine($"Usuario: {user.Email} | Roles: {string.Join(", ", roles)}");
+
         return Ok(new { token, role });
     }
 
